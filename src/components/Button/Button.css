@@ -1,0 +1,10 @@
+.button {
+    background-color: var(--color-red);
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    font-size: 14px;
+    flex-basis: 600;
+    padding: 0.25rem 0.6rem;
+
+}
