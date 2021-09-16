@@ -4,6 +4,18 @@
     border: none;
     color: white;
     font-size: 14px;
-    flex-basis: 600;
+    font-weight: 600;
     padding: 0.25rem 0.6rem;
 }   
+
+.button.sm {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.25rem 0.6rem;
+}
+
+.button.md {
+    font-size: 19px;
+    font-weight: 600;
+    padding: 0.4rem 0.7rem;
+}

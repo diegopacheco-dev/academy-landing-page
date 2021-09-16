@@ -4,6 +4,8 @@
   --color-blue: #0205c7;
   --color-red: #f00109;
   --color-green: #00E676;
+
+  --header-height: 61px;
 }
 
 * {
@@ -14,6 +16,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    margin-top: var(--header-height);
 }
 
 li {
