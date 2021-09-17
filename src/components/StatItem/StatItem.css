@@ -1,0 +1,17 @@
+.stat-item {
+  text-align: center;
+}
+
+.stat-item__number {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--color-blue);
+}
+
+.stat-item__caption {
+  font-size: 18px;
+  font-weight: 500;
+  width:60%;
+  margin: 0 auto;
+}
