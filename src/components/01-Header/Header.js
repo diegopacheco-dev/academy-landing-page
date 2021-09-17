@@ -1,10 +1,10 @@
 import React, {useState} from "react";
 import "./Header.css";
-import Button from "../Button/Button";
-import Img from "../Img/Img";
+import Button from "../generals/Button/Button";
+import Img from "../generals/Img/Img";
 import logo from "../../assets/img/logo.svg";
 import iconMenu from "../../assets/img/icon-menu.png";
-import Menu from "../Menu/Menu";
+import Menu from "../generals/Menu/Menu";
 
 const Header = () => {
 

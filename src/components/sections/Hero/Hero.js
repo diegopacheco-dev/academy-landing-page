@@ -1,7 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import Img from '../Img/Img'
-import Button from '../Button/Button'
+import Button from '../../generals/Button/Button'
 
 
 const Hero = () => {

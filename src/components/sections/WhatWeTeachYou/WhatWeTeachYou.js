@@ -1,8 +1,8 @@
 import React from "react";
 import "./WhatWeTeachYou.css";
-import CardTemary from "../CardTemary/CardTemary";
-import Subtitle from "../Heading/Subtitle/Subtitle";
-import temaryImages from "../../utils/imagesPath";
+import CardTemary from "../../generals/CardTemary/CardTemary";
+import Subtitle from "../../Heading/Subtitle/Subtitle";
+import temaryImages from '../../../utils/imagesPath'
 
 const WhatWeTeachYou = () => {
   return (
@@ -40,7 +40,7 @@ const WhatWeTeachYou = () => {
       </div>
 
       <div className="what-we-teach-you__price">
-        <i class="icon bx bxs-down-arrow bx-md"></i>
+        <i className="icon bx bxs-down-arrow bx-md"></i>
         <div>
           <p>Desde</p>
           <div className="price">
@@ -49,7 +49,7 @@ const WhatWeTeachYou = () => {
           </div>
           <p>el ciclo</p>
         </div>
-        <i class="icon bx bxs-up-arrow bx-md"></i>
+        <i className="icon bx bxs-up-arrow bx-md"></i>
       </div>
     </section>
   );

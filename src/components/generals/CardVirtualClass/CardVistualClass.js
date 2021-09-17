@@ -1,5 +1,4 @@
 import React from "react";
-import Subtitle from "../Heading/Subtitle/Subtitle";
 import "./CardVirtualClass.css";
 
 const CardVistualClass = ({ title, text }) => {

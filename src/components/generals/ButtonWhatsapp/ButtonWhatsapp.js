@@ -4,7 +4,7 @@ import './ButtonWhatsapp.css'
 const ButtonWhatsapp = ({ children }) => {
   return (
     <button className="button-whatsapp">
-      <i class="bx bx-sm bxl-whatsapp"></i>
+      <i className="bx bx-sm bxl-whatsapp"></i>
       {children}
     </button>
   );

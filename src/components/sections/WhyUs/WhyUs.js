@@ -1,6 +1,6 @@
 import React from 'react'
-import Subtitle from '../Heading/Subtitle/Subtitle'
-import StatItem from '../StatItem/StatItem'
+import Subtitle from '../../Heading/Subtitle/Subtitle'
+import StatItem from '../../generals/StatItem/StatItem'
 import './WhyUs.css'
 
 const WhyUs = () => {

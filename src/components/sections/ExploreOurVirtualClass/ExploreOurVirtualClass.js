@@ -1,7 +1,7 @@
 import React from "react";
 import "./ExploreOurVirtualClass.css";
-import Subtitle from "../Heading/Subtitle/Subtitle";
-import CardVistualClass from "../CardVirtualClass/CardVistualClass";
+import CardVistualClass from "../../generals/CardVirtualClass/CardVistualClass";
+import Subtitle from "../../Heading/Subtitle/Subtitle";
 
 const ExploreOurVirtualClass = () => {
   return (

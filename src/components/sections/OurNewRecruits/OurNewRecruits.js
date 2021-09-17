@@ -1,8 +1,7 @@
 import React from "react";
-import CardOpinion from "../CardOpinion/CardOpinion";
-import Subtitle from "../Heading/Subtitle/Subtitle";
-import Img from "../Img/Img";
+import CardOpinion from "../../generals/CardOpinion/CardOpinion";
 import "./OurNewRecruits.css";
+import Subtitle from "../../Heading/Subtitle/Subtitle";
 
 const OurNewRecruits = () => {
   return (

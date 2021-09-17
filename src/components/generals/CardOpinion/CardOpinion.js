@@ -1,6 +1,6 @@
 import React from "react";
 import "./CardOpinion.css";
-import Img from "../Img/Img";
+import Img from '../../generals/Img/Img'
 
 const CardOpinion = ({text, img, name, desc}) => {
   return (
@@ -23,11 +23,11 @@ const CardOpinion = ({text, img, name, desc}) => {
       </div>
 
       <div className="recruits-opinion__score">
-        <i class="bx bxs-star bx-md"></i>
-        <i class="bx bxs-star bx-md"></i>
-        <i class="bx bxs-star bx-md"></i>
-        <i class="bx bxs-star bx-md"></i>
-        <i class="bx bxs-star bx-md"></i>
+        <i className="bx bxs-star bx-md"></i>
+        <i className="bx bxs-star bx-md"></i>
+        <i className="bx bxs-star bx-md"></i>
+        <i className="bx bxs-star bx-md"></i>
+        <i className="bx bxs-star bx-md"></i>
       </div>
     </div>
   );
