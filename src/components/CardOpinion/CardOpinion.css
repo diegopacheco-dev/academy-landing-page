@@ -1,0 +1,41 @@
+.recruits-opinion {
+    background-color: white;
+    border-radius: 1.2rem;
+  
+    width: 290px;
+    padding: 2.2rem 1.5rem 0.5rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  .recruits-opinion__opinion {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: justify;
+  }
+  
+  .recruits-opinion__perfil {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .perfil__info p {
+    text-align: start;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  
+  .perfil__img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+  }
+  
+  .recruits-opinion__score {
+    margin-top: 1rem;
+  }
+  .recruits-opinion__score i {
+      color: #FFC635;
+  }
+  
