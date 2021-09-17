@@ -5,10 +5,10 @@ import Subtitle from "../../Heading/Subtitle/Subtitle";
 
 const OurNewRecruits = () => {
   return (
-    <section className="section bg-gray">
-      <Subtitle>Conoce a nuestros ingresantes</Subtitle>
+    <section className="section bg-gray" id="our-new-recruits">
+        <Subtitle>Conoce a nuestros ingresantes</Subtitle>
 
-      <div className="our-new-recruits__container">
+      <div className="our-new-recruits__container mt-2">
         <CardOpinion
           text="Gracias a GUIDE logré mi ingreso.
 Lo que más me gustó fueron los profesores y las clases grabadas."

@@ -27,7 +27,7 @@ const Header = () => {
         <Img src={iconMenu} />
       </button>
 
-      <Menu showMenu={showMenu}/>
+      <Menu showMenu={showMenu} setShowMenu={setShowMenu}/>
     </div>
 
   );

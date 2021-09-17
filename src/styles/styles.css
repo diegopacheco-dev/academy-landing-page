@@ -37,8 +37,17 @@ a {
 
 .section {
   text-align: center;
-  padding: 2rem 0;
+  padding: 4.5rem 0;
 }
+
+.mt-1 {
+  margin-top:  1rem;
+}
+
+.mt-2 {
+  margin-top:  2rem;
+}
+
 
 .bg-gray {
   background-color: var(--color-background-gray);

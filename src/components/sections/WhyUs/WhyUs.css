@@ -1,9 +1,7 @@
 .why-us {
     height: calc(760px - var(--header-height));
-    text-align: center;
     display: flex;
     flex-direction: column;
-    padding: 2rem 0;
     background-color: var(--color-background-gray);
 }
 
@@ -13,3 +11,4 @@
     justify-content: space-around;
     flex: 1;
 }
+

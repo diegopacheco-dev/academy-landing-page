@@ -5,11 +5,9 @@ import Subtitle from "../../Heading/Subtitle/Subtitle";
 
 const ExploreOurVirtualClass = () => {
   return (
-    <div className="section bg-gray">
-      <div className="section__title">
+    <div className="section bg-gray" id="explore-our-virtual-class">
         <Subtitle>Explora nuestra aula virtual</Subtitle>
-      </div>
-      <div className="explore-our-virtual-classroom__container">
+      <div className="explore-our-virtual-classroom__container mt-2">
         <CardVistualClass
           title="Clases en vivo/ grabadas"
           text="Accede a clases en vivo todos los días; si no puedes conectarte revisa tus clases grabadas."

@@ -1,6 +1,5 @@
 .our-public {
   height: calc(760px - var(--header-height));
-  padding: 2rem 0;
   background-color: white;
   display: flex;
   flex-direction: column;

@@ -8,12 +8,12 @@ import CardOurPublic from "../../generals/CardOurPublic/CardOurPublic";
 
 const OurPublic = () => {
   return (
-    <div className="our-public">
+    <div className="our-public section" id="our-public">
       <div className="our-public__title">
         <Subtitle>¿A quiénes nos dirigímos?</Subtitle>
       </div>
 
-      <div className="our-public__container">
+      <div className="our-public__container mt-2">
         <CardOurPublic
           img={iconCivil}
           caption="Civiles"

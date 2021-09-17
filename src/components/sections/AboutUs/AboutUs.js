@@ -1,13 +1,14 @@
 import React from "react";
 import "./AboutUs.css";
-import aboutUs from '../../../assets/img/about-us.png'
-import Img from '../../generals/Img/Img'
+import aboutUs from "../../../assets/img/about-us.png";
+import Img from "../../generals/Img/Img";
+import Subtitle from "../../Heading/Subtitle/Subtitle";
 
 const AboutUs = () => {
   return (
-    <div className="about-us">
-      <div className="about-us__info">
-        <h2>Acercar de GUIDE</h2>
+    <div className="about-us section" id="about-us">
+      <Subtitle>Acerca de GUIDE</Subtitle>
+      <div className="about-us__info mt-1">
         <p>
           Somos una academia de preparación exclusiva para jóvenes que están
           próximos a postular a una escuela de Oficiales, Sub Oficiales, Beca 18

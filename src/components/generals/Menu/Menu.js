@@ -1,27 +1,39 @@
 import React from "react";
 import "./Menu.css";
 
-const Menu = ({ showMenu }) => {
+const Menu = ({ showMenu, setShowMenu }) => {
   return (
     <div className={`menu ${showMenu && "show"}`}>
       <ul>
         <li>
-          <a href="!#">Acerca de GUIDE</a>
+          <a 
+          onClick={() => setShowMenu(prevState => !prevState)}
+          href="#about-us">Acerca de GUIDE</a>
         </li>
         <li>
-          <a href="!#">¿Por qué nosotros?</a>
+          <a 
+          onClick={() => setShowMenu(prevState => !prevState)}
+          href="#why-us">¿Por qué nosotros?</a>
         </li>
         <li>
-          <a href="!#">¿A quienes nos dirigimos?</a>
+          <a 
+          onClick={() => setShowMenu(prevState => !prevState)}
+          href="#our-public">¿A quienes nos dirigimos?</a>
         </li>
         <li>
-          <a href="!#">Descubre lo que te enseñaremos</a>
+          <a 
+          onClick={() => setShowMenu(prevState => !prevState)}
+          href="#what-we-teach-you">Descubre lo que te enseñaremos</a>
         </li>
         <li>
-          <a href="!#">Explora nuestra aula virtual</a>
+          <a 
+          onClick={() => setShowMenu(prevState => !prevState)}
+          href="#explore-our-virtual-class">Explora nuestra aula virtual</a>
         </li>
         <li>
-          <a href="!#">Nuestros integrantes</a>
+          <a 
+          onClick={() => setShowMenu(prevState => !prevState)}
+          href="#our-new-recruits">Nuestros integrantes</a>
         </li>
       </ul>
     </div>

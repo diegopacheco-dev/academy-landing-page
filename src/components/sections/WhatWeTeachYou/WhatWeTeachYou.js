@@ -6,7 +6,7 @@ import temaryImages from '../../../utils/imagesPath'
 
 const WhatWeTeachYou = () => {
   return (
-    <section className="what-we-teach-you">
+    <section className="what-we-teach-you section" id="what-we-teach-you">
       <Subtitle>Descubre lo que te enseñaremos</Subtitle>
       <p>
         Conoce más sobre nuestros <b>horarios</b>, los <b>asignaturas</b> que
