@@ -1,0 +1,42 @@
+.our-public {
+  height: calc(760px - var(--header-height));
+  padding: 2rem 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.our-public__title {
+  text-align: center;
+
+  width: 70%;
+  margin: 0 auto;
+}
+
+.our-public__container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.our-public__option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.option__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: var(--color-purple);
+  overflow: hidden;
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+.option__caption {
+  font-size: 18px;
+  font-weight: 500;
+}
