@@ -1,7 +1,6 @@
 import React from "react";
 import "./OurPublic.css";
 import Subtitle from "../../Heading/Subtitle/Subtitle";
-import Img from "../../generals/Img/Img";
 import iconMilitar from "../../../assets/img/militar-icon.png";
 import iconCivil from "../../../assets/img/civil-icon.png";
 import CardOurPublic from "../../generals/CardOurPublic/CardOurPublic";

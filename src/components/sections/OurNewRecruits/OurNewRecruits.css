@@ -1,6 +1,14 @@
 .our-new-recruits__container {
-    display: flex;
-    justify-content: center;
-    padding: 0 2rem 2rem 2rem;  
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 2rem 2rem 2rem;
+  gap: 2rem;
+  overflow-x: auto;
+  width: 100%;
 }
 
+@media screen and (min-width: 1024px) {
+  .our-new-recruits__container {
+    justify-content: center;
+  }
+}

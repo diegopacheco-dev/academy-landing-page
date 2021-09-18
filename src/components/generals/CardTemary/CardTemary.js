@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Button from "../Button/Button";
-import Subtitle from "../../Heading/Subtitle/Subtitle";
 import './CardTemary.css'
 
 const CardTemary = ({ title, imgs }) => {

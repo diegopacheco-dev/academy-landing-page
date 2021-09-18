@@ -1,8 +1,7 @@
 .recruits-opinion {
     background-color: white;
     border-radius: 1.2rem;
-  
-    width: 290px;
+    min-width: 290px;
     padding: 2.2rem 1.5rem 0.5rem;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
   }
@@ -39,3 +38,8 @@
       color: #FFC635;
   }
   
+  @media screen and (min-width: 1024px) {
+    .recruits-opinion {
+      max-width: 290px;
+    }
+  }

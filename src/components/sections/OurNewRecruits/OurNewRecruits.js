@@ -9,6 +9,7 @@ const OurNewRecruits = () => {
         <Subtitle>Conoce a nuestros ingresantes</Subtitle>
 
       <div className="our-new-recruits__container mt-2">
+
         <CardOpinion
           text="Gracias a GUIDE logré mi ingreso.
 Lo que más me gustó fueron los profesores y las clases grabadas."
@@ -16,6 +17,23 @@ Lo que más me gustó fueron los profesores y las clases grabadas."
           name="Erick Arancibia"
           desc="Ingresante ESOFA 2021"
         />
+
+        <CardOpinion
+          text="Gracias a GUIDE logré mi ingreso.
+Lo que más me gustó fueron los profesores y las clases grabadas."
+          img={`${process.env.PUBLIC_URL}/imgs/opinion1.png`}
+          name="Erick Arancibia"
+          desc="Ingresante ESOFA 2021"
+        />
+
+        <CardOpinion
+          text="Gracias a GUIDE logré mi ingreso.
+Lo que más me gustó fueron los profesores y las clases grabadas."
+          img={`${process.env.PUBLIC_URL}/imgs/opinion1.png`}
+          name="Erick Arancibia"
+          desc="Ingresante ESOFA 2021"
+        />
+
       </div>
     </section>
   );
