@@ -7,9 +7,10 @@ import Subtitle from "../../Heading/Subtitle/Subtitle";
 const AboutUs = () => {
   return (
     <div className="about-us section" id="about-us">
-      <Subtitle>Acerca de GUIDE</Subtitle>
-      <div className="about-us__info mt-1">
-        <p>
+
+      <div className="about-us__info">
+        <Subtitle>Acerca de GUIDE</Subtitle>
+        <p className="mt-1">
           Somos una academia de preparación exclusiva para jóvenes que están
           próximos a postular a una escuela de Oficiales, Sub Oficiales, Beca 18
           y el IESTFFAA. Contamos con la mejor plana de docentes e instructores
@@ -18,9 +19,13 @@ const AboutUs = () => {
           positivos.
         </p>
       </div>
+
+
       <div className="about-us__img">
-        <Img src={aboutUs} />
+        <Img type="contain" src={aboutUs} />
       </div>
+
+
     </div>
   );
 };

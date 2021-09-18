@@ -31,6 +31,10 @@ li {
   list-style-type: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 a {
   text-decoration: none;
 }
@@ -41,18 +45,26 @@ a {
 }
 
 .mt-1 {
-  margin-top:  1rem;
+  margin-top: 1rem;
 }
 
 .mt-2 {
-  margin-top:  2rem;
+  margin-top: 2rem;
 }
-
 
 .bg-gray {
   background-color: var(--color-background-gray);
 }
 
 .bg-white {
-    background-color: white;
+  background-color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --header-height: 80px;
+  }
+  .section {
+    padding: 5.5rem 0;
+  }
 }

@@ -15,6 +15,7 @@ const ExploreOurVirtualClass = () => {
         <CardVistualClass
           title="Materiales de estudio"
           text="Descarga diapositivas, resúmenes, separatas y libros (acorde al prospecto de tu Escuela) y refuerza lo aprendido en clase."
+          type="reverse"
         />
         <CardVistualClass
           title="Simulacros"

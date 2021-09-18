@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import Button from '../../generals/Button/Button'
-
+import Img from '../../generals/Img/Img'
 
 const Hero = () => {
     return (
@@ -16,7 +16,7 @@ const Hero = () => {
                 <Button size="md">INSCRIBIRME</Button>
             </div>
             <div className="hero__img">
-                {/* <Img src={} alt={}/> */}
+                <Img src={`${process.env.PUBLIC_URL}/imgs/tropa-img.png`} type="contain" alt="baner" />
             </div>
         </section>
     )

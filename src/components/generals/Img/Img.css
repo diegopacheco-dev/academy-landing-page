@@ -6,3 +6,7 @@
 .img.container {
     object-fit: cover;
 }
+
+.img.contain {
+    object-fit: contain;
+}

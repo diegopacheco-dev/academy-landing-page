@@ -1,14 +1,29 @@
 .why-us {
-    height: calc(760px - var(--header-height));
-    display: flex;
-    flex-direction: column;
-    background-color: var(--color-background-gray);
+  height: calc(760px - var(--header-height));
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-background-gray);
 }
 
 .why-us__stats {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
 }
 
+@media screen and (min-width: 1024px) {
+  .why-us {
+    height: auto;
+  }
+
+  .why-us__stats {
+    padding-top: 3rem;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+  }
+}

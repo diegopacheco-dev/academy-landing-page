@@ -6,7 +6,13 @@
     font-size: 14px;
     font-weight: 600;
     padding: 0.25rem 0.6rem;
-}   
+    transition: all 0.15s ease-in;
+}  
+
+.button:hover {
+    filter: blur(0.4);
+    transform: scale(1.05);
+}
 
 .button.sm {
     font-size: 14px;
@@ -27,3 +33,18 @@
     line-height: 1.2;
 }
 
+.button.color {
+    filter: grayscale(0%);
+}
+
+.button.grayscale {
+    filter: grayscale(100%);
+}
+
+@media screen and (min-width: 1024px) {
+    .button.md {
+        font-size: 36px;
+        font-weight: 600;
+        padding: 0.4rem 0.7rem;
+    } 
+}

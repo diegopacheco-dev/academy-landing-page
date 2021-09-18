@@ -23,4 +23,34 @@
   width: 250px;
   padding: 1rem 0;
   margin: 0 auto;
+  border-radius: 1.5 rem;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .about-us {
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .about-us__info {
+    display: flex;
+    width: 50%;
+  }
+
+  .about-us p {
+    font-size: 16px;
+    width: 70%;
+    text-align: justify;
+  }
+
+  .about-us__img {
+    width: 35%;
+    height: auto;
+  }
+  .about-us__img img {
+    width: 100%;
+  }
 }

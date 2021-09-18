@@ -9,6 +9,8 @@
     box-shadow: 8px 8px 5px lightgray;
 }
 
+
+
 .card-temary__container {
     display: grid;
     margin: 0 auto;
@@ -16,6 +18,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.card-temary__container .color {
+    filter: grayscale(0%);
+}
+
+.card-temary__container .grayscale {
+    filter: grayscale(100%);
 }
 
 .card-temary__container.two-imgs {
@@ -33,4 +43,19 @@
 .card-temary__button {
     width: 140px;
     margin: 0 auto;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .card-temary {
+        margin-top: 2rem;
+        width: 275px;
+        height: 400px;
+        justify-content: space-between;
+    }
+
+    .card-temary h4 {
+        font-size: 27px;
+    }
+    
 }

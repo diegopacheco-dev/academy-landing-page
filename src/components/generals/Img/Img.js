@@ -3,7 +3,7 @@ import './Img.css'
 
 const Img = ({src, alt, type="container"}) => {
     return (
-        <img className="img" src={src} alt={alt}/>
+        <img className={`img ${type}`} src={src} alt={alt}/>
     )
 }
 

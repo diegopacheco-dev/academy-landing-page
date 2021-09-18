@@ -1,9 +1,11 @@
 import React from 'react'
 import './Button.css'
 
-const Button = ({children, size="sm"}) => {
+const Button = ({children, size="sm", type="color", onClick=()=>console.log("")}) => {
     return (
-        <button className={`button ${size}`}>
+        <button
+        onClick={() => onClick()}
+         className={`button ${size} ${type}`}>
             {children}
         </button>
     )

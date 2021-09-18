@@ -22,18 +22,28 @@
   flex-direction: column;
   align-items: center;
   gap: 0.2rem;
-  padding: 2rem 0 4rem;
+  padding: 2rem 0 0;
 }
 
 .what-we-teach-you__price .icon {
   color: var(--color-blue);
 }
 
-.what-we-teach-you__price > div {
+.price-and-rows-container {
+  display: flex;
+  align-items: center;
+}
+
+.what-we-teach-you__price .price-container {
   background-color: var(--color-blue);
   width: 275px;
   padding: 0.4rem;
   border-radius: 1.25rem;
+  position: relative;
+}
+
+.icons-arrows-container {
+  display: none;
 }
 
 .what-we-teach-you__price > div p {
@@ -43,10 +53,10 @@
 }
 
 .what-we-teach-you__price .price {
-    position: relative;
+  position: relative;
 }
 
-.what-we-teach-you__price .price p{
+.what-we-teach-you__price .price p {
   font-size: 96px;
   font-weight: 600;
   line-height: 0.8;
@@ -59,4 +69,33 @@
   position: absolute;
   left: 11%;
   color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  .what-we-teach-you__price {
+    margin-top: 2rem;
+  }
+
+  .what-we-teach-you > p {
+    font-size: 18px;
+    width: 60%;
+  }
+
+  .what-we-teach-you__container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .what-we-teach-you__price {
+    padding-bottom: 0;
+  }
+
+  .icons-arrows-container {
+    display: initial;
+  }
+  .vertical-arrow {
+    display: none;
+  }
+
+  
 }

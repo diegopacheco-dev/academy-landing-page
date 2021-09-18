@@ -1,9 +1,9 @@
 import React from "react";
 import "./CardVirtualClass.css";
 
-const CardVistualClass = ({ title, text }) => {
+const CardVistualClass = ({ title, text, type="" }) => {
   return (
-    <div className="card-virtual-class">
+    <div className={`card-virtual-class ${type}`}>
       <div className="card-virtual-class__info">
         <h4>{title}</h4>
         <p>{text}</p>

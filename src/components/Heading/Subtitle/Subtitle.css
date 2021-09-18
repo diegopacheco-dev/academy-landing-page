@@ -3,3 +3,11 @@
     font-weight: 700;
   }
   
+
+  @media screen and (min-width: 1024px) {
+    .subtitle {
+      font-size: 40px;
+      font-weight: 600;
+    }
+    
+  }

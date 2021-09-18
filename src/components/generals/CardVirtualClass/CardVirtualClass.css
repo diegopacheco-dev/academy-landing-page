@@ -31,3 +31,26 @@
   background-color: #c4c4c4;
   border-radius: 0.5rem;
 }
+
+@media screen and (min-width: 1024px) {
+  .card-virtual-class {
+    width: 570px;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-starts;
+    padding: 1.8rem 1.2rem;
+  }
+  
+  .card-virtual-class.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .card-virtual-class__info {
+    flex: 50%;
+  }
+
+  .card-virtual-class__img {
+    margin-top: 2rem;
+    flex: 50%;
+  }
+}

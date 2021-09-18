@@ -1,5 +1,9 @@
 .stat-item {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15rem;
 }
 
 .stat-item__number {
@@ -12,6 +16,13 @@
 .stat-item__caption {
   font-size: 18px;
   font-weight: 500;
-  width:60%;
-  margin: 0 auto;
+  width: 60%;
+}
+
+@media screen and (min-width: 1024px) {
+  .stat-item__caption {
+    font-size: 18px;
+    font-weight: 500;
+    width: 90%;
+  }
 }

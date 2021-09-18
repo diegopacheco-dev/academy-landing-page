@@ -2,7 +2,7 @@ import React from "react";
 import "./WhatWeTeachYou.css";
 import CardTemary from "../../generals/CardTemary/CardTemary";
 import Subtitle from "../../Heading/Subtitle/Subtitle";
-import temaryImages from '../../../utils/imagesPath'
+import temaryImages from "../../../utils/imagesPath";
 
 const WhatWeTeachYou = () => {
   return (
@@ -40,16 +40,27 @@ const WhatWeTeachYou = () => {
       </div>
 
       <div className="what-we-teach-you__price">
-        <i className="icon bx bxs-down-arrow bx-md"></i>
-        <div>
-          <p>Desde</p>
-          <div className="price">
-            <span>s/</span>
-            <p>450</p>
+        <i className="vertical-arrow icon bx bxs-down-arrow bx-md"></i>
+        <div className="price-and-rows-container">
+          <div className="icons-arrows-container">
+            <i className="icon bx bxs-right-arrow bx-md"></i>
+            <i className="icon bx bxs-right-arrow bx-md"></i>
           </div>
-          <p>el ciclo</p>
+          <div className="price-container">
+            <p>Desde</p>
+            <div className="price">
+              <span>s/</span>
+              <p>450</p>
+            </div>
+            <p>el ciclo</p>
+          </div>
+          <div className="icons-arrows-container">
+            <i className="icon bx bxs-left-arrow bx-md"></i>
+            <i className="icon bx bxs-left-arrow bx-md"></i>
+          </div>
         </div>
-        <i className="icon bx bxs-up-arrow bx-md"></i>
+
+        <i className="vertical-arrow icon bx bxs-up-arrow bx-md"></i>
       </div>
     </section>
   );
