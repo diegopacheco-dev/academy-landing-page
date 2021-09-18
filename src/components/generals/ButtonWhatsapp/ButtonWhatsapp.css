@@ -2,15 +2,13 @@
     background-color: #00E676;
     border: none;
     border-radius: 2rem;
-    font-size: 8px;
+    font-size: 14px;
     font-weight: 600;
     color: white;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    padding-left: 0.5rem;
-    width: 170px;
-    height: 35px;
+    gap: 0.1rem;
+    padding: 0.5rem 0.3rem;
     position: fixed;
     bottom: 1rem;
     left: 1rem;
@@ -20,8 +18,7 @@
 @media screen and (min-width: 1024px) {
     .button-whatsapp {
         font-size: 14px;
-        width: auto;
-        padding: 1.5rem 0.5rem;
+        padding: 0.8rem 0.5rem;
     }
     
 }
