@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ericksonder/academy-landing-page/static/css/main.b0c67ed6.chunk.css",
+    "main.js": "/ericksonder/academy-landing-page/static/js/main.2f073881.chunk.js",
+    "main.js.map": "/ericksonder/academy-landing-page/static/js/main.2f073881.chunk.js.map",
+    "runtime-main.js": "/ericksonder/academy-landing-page/static/js/runtime-main.7ae1fcc7.js",
+    "runtime-main.js.map": "/ericksonder/academy-landing-page/static/js/runtime-main.7ae1fcc7.js.map",
+    "static/js/2.bfa68de4.chunk.js": "/ericksonder/academy-landing-page/static/js/2.bfa68de4.chunk.js",
+    "static/js/2.bfa68de4.chunk.js.map": "/ericksonder/academy-landing-page/static/js/2.bfa68de4.chunk.js.map",
+    "index.html": "/ericksonder/academy-landing-page/index.html",
+    "static/css/main.b0c67ed6.chunk.css.map": "/ericksonder/academy-landing-page/static/css/main.b0c67ed6.chunk.css.map",
+    "static/js/2.bfa68de4.chunk.js.LICENSE.txt": "/ericksonder/academy-landing-page/static/js/2.bfa68de4.chunk.js.LICENSE.txt",
+    "static/media/about-us.bb99f8e6.png": "/ericksonder/academy-landing-page/static/media/about-us.bb99f8e6.png",
+    "static/media/logo.81859e9d.svg": "/ericksonder/academy-landing-page/static/media/logo.81859e9d.svg",
+    "static/media/militar-icon.fa436a8e.png": "/ericksonder/academy-landing-page/static/media/militar-icon.fa436a8e.png",
+    "static/media/Hero.css": "/ericksonder/academy-landing-page/static/media/tropa.7c36dc90.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ae1fcc7.js",
+    "static/js/2.bfa68de4.chunk.js",
+    "static/css/main.b0c67ed6.chunk.css",
+    "static/js/main.2f073881.chunk.js"
+  ]
+}
